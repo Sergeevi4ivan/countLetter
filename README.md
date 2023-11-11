@@ -69,3 +69,16 @@
    >remove: Total 10 (delta 1), reused 10 (delta 1)
 
    >Unpacking objects: 100% (10/10), done.
+
+
+   ### Запуск программы.
+
+   1 В терминале откройте папку с клонированной программой
+   
+   2 введите команду `mvnw package` (для Mac OS или Linux команда `./mvnw package` ) для сборки проекта в jar файл
+   
+   3 введите команду `cd target/` для перехода в каталог где находится jar файл
+   
+   4 введите команду `java -jar countLetter-0.0.1-SNAPSHOT.jar` для запуска приложения
+   
+   5 Откройте браузер и введите адрес `http://localhost:8081/api?word=aaaaabcccc`
